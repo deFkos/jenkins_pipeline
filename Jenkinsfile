@@ -3,7 +3,6 @@ pipeline{
   stages{
     stage("print hello"){
       steps{
-       checkout scm
        echo 'hello12321_dada'       
       }
     }
